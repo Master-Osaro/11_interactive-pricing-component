@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Demo](https://interactive-rating-component-o.netlify.app/)
+- Live Site URL: [Live Demo](https://interactive-pricing-component-o.netlify.app/)
 
 ## My process
 
