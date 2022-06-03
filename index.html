@@ -1,58 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Interactive pricing component | Frontend Mentor</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Interactive pricing component | Frontend Mentor</title>
 </head>
+
 <body>
 
-  <main>
-    <div>
-    <section class="pricing-header">
-      <h1>Simple, traffic-based pricing</h1>
-      <p>Sign-up for our 30-day trial. No credit card required.</p>
-    </section>
-    <section class="price-card">
-      <div class="price-card__page-views-cost">
-        <p class="price-card__page-views"><span id="pageView">55k</span> Pageviews</p>
-        <div class="price-card__cost"><span>$16.00 </span> <p> /month</p></div>
-      </div>
+    <main>
+        <div>
+            <section class="pricing-header">
+                <h1>Simple, traffic-based pricing</h1>
+                <p>Sign-up for our 30-day trial. No credit card required.</p>
+            </section>
+            <div class="price-card">
+                <div class="price-card__page-views-cost">
+                    <p class="price-card__page-views"><span id="pageView">55k</span> Pageviews</p>
+                    <div class="price-card__cost"><span>$16.00 </span>
+                        <p> /month</p>
+                    </div>
+                </div>
 
-      <div class="price-card__slider-wrapper"><input type="range"  min="0" max="4" value="2" class="price-card__slider-bar"></div>
+                <div class="price-card__slider-wrapper"><input type="range" min="0" max="4" value="2" class="price-card__slider-bar"></div>
 
-      <div class="price-card__cost price-card__cost-mobile"><span>$16.00 </span> <p> /month</p></div>
+                <div class="price-card__cost price-card__cost-mobile"><span>$16.00 </span>
+                    <p> /month</p>
+                </div>
 
-      <div class="price-card__toggle">
-        <p class="price-card__toggle-month">Monthly Billing</p>
-        <label for="cb" class="switch">
+                <div class="price-card__toggle">
+                    <p class="price-card__toggle-month">Monthly Billing</p>
+                    <label for="cb" class="switch">
           <input type="checkbox" id="cb">
           <span class="slider round"></span>
         </label>
-        <p class="price-card__toggle-year">Yearly Billing </p>
-        <p class="price-card__toggle-discount">25% <span>discount</span> </p>
-      </div>
+                    <p class="price-card__toggle-year">Yearly Billing </p>
+                    <p class="price-card__toggle-discount">25% <span>discount</span> </p>
+                </div>
 
-      <hr>
+                <hr>
 
-      <section class="price-card__benefits">
-        <div class="price-card__benefits-list">
-          <div><img src="images/icon-check.svg" alt=""> Unlimited websites</div>
-          <div><img src="images/icon-check.svg" alt=""> 100% data ownership</div>
-          <div><img src="images/icon-check.svg" alt=""> Email reports</div>
+                <div class="price-card__benefits">
+                    <div class="price-card__benefits-list">
+                        <div><img src="images/icon-check.svg" alt=""> Unlimited websites</div>
+                        <div><img src="images/icon-check.svg" alt=""> 100% data ownership</div>
+                        <div><img src="images/icon-check.svg" alt=""> Email reports</div>
+                    </div>
+                    <button class="price-card__benefits-trial-btn">Start my trial</button>
+                </div>
+
+            </div>
         </div>
-        <button class="price-card__benefits-trial-btn">Start my trial</button>
-      </section>
+    </main>
 
-    </section>
-  </div>
-  </main>
-
-  <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
